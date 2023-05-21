@@ -65,3 +65,56 @@
   .icon svg {
     color: #333;
   }
+
+
+
+  body {
+    background: #2a2e32;
+}
+
+.text-small {
+    font-size: 0.9rem;
+}
+
+a {
+    text-decoration: none !important; 
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline !important;
+}
+
+.form-control {
+    background: #212529;
+    border-color: #545454;
+    color: #FEFEFE;
+}
+
+.form-control:focus {
+    background: #212529;
+    color: #ED7D14;
+}
+
+footer {
+    background: #212529;
+}
+
+/* ==========================================
+CUSTOM UTILS CLASSES
+========================================== */
+body,
+html {
+    height: 100%;
+}
+
+input {
+    color: #FCFCFC;
+    background: #2F667A;
+}
+
+textarea,
+input {
+    background: #444444;
+    color: #FEFEFE;
+}
