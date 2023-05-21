@@ -9,7 +9,7 @@ const Category = () => {
           <div className="col-md-2 mb-2">
             <div className="card position-relative">
               <img src={cat} alt=""  className='cat-img'/>
-              <span className='position-absolute px-2 bottom-0'>New Cat</span>
+              <small className='position-absolute px-2 bottom-0'>New Cat</small>
             </div>
           </div>
         </div>
