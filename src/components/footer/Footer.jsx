@@ -1,11 +1,11 @@
 import React from "react";
-
+import payment from '../../assets/payments.png'
 const Footer = () => {
   return (
     <div class="d-flex flex-column h-100">
  
     {/* <!-- FOOTER --> */}
-    <footer class="w-100 py-4 flex-shrink-0">
+    <footer class="w-100  flex-shrink-0">
         <div class="container py-4">
             <div class="row gy-4 gx-5">
                 <div class="col-lg-4 col-md-6">
@@ -42,7 +42,18 @@ const Footer = () => {
                     </form>
                 </div>
             </div>
+
+            <div className="d-flex justify-content-between align-items-center">
+                <div className="col-md-6 mb-2">
+                    <p className="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab unde minus mollitia reprehenderit.</p>
+                </div>
+
+                <div className="col-md-6 d-flex justify-content-end mb-2">
+                    <img src={payment} alt="" />
+                </div>
+            </div>
         </div>
+
     </footer>
 </div>
   );

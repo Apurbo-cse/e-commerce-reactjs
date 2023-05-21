@@ -118,3 +118,7 @@ input {
     background: #444444;
     color: #FEFEFE;
 }
+
+.cat-img:hover{
+  transition: width 2s;
+}
