@@ -122,3 +122,19 @@ input {
 .cat-img:hover{
   transition: width 2s;
 }
+
+
+.limit {
+  text-overflow: ellipsis;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+}
+
+.limit2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2 !important;
+  line-clamp: 2 !important;
+  -webkit-box-orient: vertical;
+}
